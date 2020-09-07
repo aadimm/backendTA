@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "bf5c21d48823b3",
+    "password": "ce5c433c",
+    "database": "heroku_9dccd4d8905d470",
+    "host": "us-cdbr-east-02.cleardb.com",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "bf5c21d48823b3",
+    "password": "ce5c433c",
+    "database": "heroku_9dccd4d8905d470",
+    "host": "us-cdbr-east-02.cleardb.com",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL",
+    "dialect": "postgres",
+    "protocol": "postgres",
+    "dialegOption": {
+      "ssl": true
+    }
+  }
+}
