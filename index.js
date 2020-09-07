@@ -10,7 +10,7 @@ const DormRoutes = require('./routes/dorm-routes');
 const BookRoutes = require('./routes/book-routes')
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 443;
 
 
 app.use(bodyParser.urlencoded({extended: true}));
